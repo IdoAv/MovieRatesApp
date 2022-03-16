@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieRatesApp.Models;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,6 +14,7 @@ namespace MovieRatesApp
                 return true; //change this before release!
             }
         }
+        public User CurrentUser { get; set; }
         public App()
         {
             InitializeComponent();
